@@ -289,8 +289,6 @@ pnpm install
 pnpm test
 ```
 
-PRs welcome. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
-
 ---
 
 ## 📄 License
