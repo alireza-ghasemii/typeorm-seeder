@@ -1,0 +1,69 @@
+{
+  "name": "@alireza_ghasemi/typeorm-seeder",
+  "version": "1.0.0",
+  "description": "Declarative, type-safe, relation-aware seeding for TypeORM",
+  "author": "Alireza-ghasemi",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "seed": "./dist/cli/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -w -p tsconfig.build.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "seed:run": "node dist/cli/index.js run"
+  },
+  "keywords": [
+    "typeorm",
+    "seeder",
+    "nestjs",
+    "typescript",
+    "faker",
+    "database",
+    "testing"
+  ],
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.x",
+    "typeorm": "^0.3.x",
+    "@nestjs/common": "^11.x"
+  },
+  "peerDependenciesMeta": {
+    "@faker-js/faker": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "reflect-metadata": "^0.1.14",
+    "ts-jest": "^29.1.0",
+    "typeorm": "^0.3.17",
+    "@jest/globals": "^30.4.1",
+    "typescript": "^5.2.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "glob": "^10.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alireza-ghasemii/typeorm-seeder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alireza-ghasemii/typeorm-seeder/issues"
+  },
+  "homepage": "https://github.com/alireza-ghasemii/typeorm-seeder#readme",
+  "packageManager": "pnpm@11.5.2+sha512.71c631e382066efc25625d5cf029075de07b61b37f6e27350fbd84b1bda5864c8c1967adc280776b45c30a715c0359a3be08fef42d5bb09e2b99029979692916"
+}
