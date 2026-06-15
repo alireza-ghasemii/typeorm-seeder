@@ -284,7 +284,7 @@ src/
 ## 🤝 Contributing
 
 ```bash
-git clone https://github.com/your-org/typeorm-seeder
+git clone https://github.com/alireza-ghasemii/typeorm-seeder.git
 pnpm install
 pnpm test
 ```
