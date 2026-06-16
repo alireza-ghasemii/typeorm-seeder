@@ -97,7 +97,7 @@ export class AppModule {}
 
 ```ts
 // seeders/factories/user.factory.ts
-import { factory } from "typeorm-seeder";
+import { factory } from "@alireza_ghasemi/typeorm-seeder";
 import { faker } from "@faker-js/faker";
 
 export const userFactory = factory(User, {
@@ -111,7 +111,7 @@ export const userFactory = factory(User, {
 
 ```ts
 // seeders/user.seeder.ts
-import { Seeder, Seed, hasMany, oneOf } from "typeorm-seeder";
+import { Seeder, Seed, hasMany, oneOf } from "@alireza_ghasemi/typeorm-seeder";
 
 @Seeder({ env: ["dev", "staging"] })
 export class UserSeeder {
